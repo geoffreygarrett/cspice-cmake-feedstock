@@ -12,7 +12,7 @@ requirements:
     build:
         - cmake
         - {{ compiler('c') }}              # [not win]
-        - m2w64-gcc                        # [win]
+        - mingw                            # [win]
 
 about:
   home: https://github.com/tudat-team/cspice-cmake
