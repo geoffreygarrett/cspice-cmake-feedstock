@@ -1,1 +1,17 @@
-{}
+github:
+  user_or_org: ggarrett13
+
+channels:
+  targets:
+  - [ggarrett13, main]
+
+provider:
+  linux: circle
+  osx: travis
+  win: appveyor
+  linux_ppc64le: None
+  linux_aarch64: None
+
+appveyor:
+  secure:
+    BINSTAR_TOKEN: ic9VPwEZqoLunniWG5UzufeHpCCkdA1SEFAwuZbkw26KJBMdaCnVSqU4o+WTlWE2
